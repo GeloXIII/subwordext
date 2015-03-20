@@ -1,0 +1,330 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Mid,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,27,27,173,0
+Style: RightMid,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,3,27,67,160,0
+Style: TopCen,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,27,27,53,0
+Style: Locked,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,27,27,107,0
+Style: Released,Open Sans Semibold,36,&H00000000,&H00FF0000,&H00FFFFFF,&H00FFFFFF,1,0,0,0,100,100,0,0,1,2,1,7,40,27,53,0
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,7,453,53,27,0
+Style: Unk,Open Sans Semibold,40,&H00000000,&H00FF0000,&H00FFFFFF,&H00FFFFFF,1,0,0,0,100,100,0,0,1,2,1,8,27,27,373,0
+Style: Warning,Open Sans Semibold,33,&H000C0096,&H00FF0000,&H0080ABB9,&H00FFFFFF,1,0,0,0,100,100,0,0,1,2,1,8,27,160,133,0
+Style: Inco,Open Sans Semibold,33,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,27,27,27,0
+Style: Continue,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,80,187,0
+Style: Next,Open Sans Semibold,33,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,3,27,67,113,0
+Style: Special,Open Sans Semibold,40,&H00000000,&H00FF0000,&H00FFFFFF,&H00FFFFFF,1,0,0,0,100,100,0,0,1,2,1,7,400,27,80,0
+Style: DefaultBW,Open Sans Semibold,40,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,7,0,0,28,0
+Style: DefaultMd,Open Sans Semibold,40,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Line,Open Sans Semibold,36,&H00000000,&H00FF0000,&H00FFFFFF,&H00FFFFFF,1,0,0,0,100,100,0,0,1,2,1,7,27,27,80,0
+Style: Line2,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,27,27,267,0
+Style: DefaultR,Open Sans Semibold,44,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: Sign,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,27,27,27,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:56.75,0:00:59.92,Default,NTP,0000,0000,0000,,You'd better make a run for it now.\NYou'll never clear up this misunderstanding.
+Dialogue: 0,0:01:01.09,0:01:03.72,Default,NTP,0000,0000,0000,,D-Don't run off, damn you!
+Dialogue: 0,0:01:04.13,0:01:06.97,Default,NTP,0000,0000,0000,,I only came to pay back\Nthe fight that was sold to me.
+Dialogue: 0,0:01:06.97,0:01:10.56,Default,NTP,0000,0000,0000,,Celty-san, please take Young Miss somewhere safe.
+Dialogue: 0,0:01:10.93,0:01:12.43,Default,NTP,0000,0000,0000,,I'm counting on you, Shooter!
+Dialogue: 0,0:02:15.58,0:02:18.00,Default,NTP,0000,0000,0000,,{\i1}It all began with a cell phone.{\i0}
+Dialogue: 0,0:02:19.00,0:02:21.00,Mid,NTP,0000,0000,0000,,The Apple Doesn't Fall Far From the Tree
+Dialogue: 0,0:02:25.97,0:02:30.51,Default,NTP,0000,0000,0000,,{\i1}Probably, my family was more...\Nwell-off than others, I think.{\i0}
+Dialogue: 0,0:02:31.05,0:02:35.14,Default,NTP,0000,0000,0000,,{\i1}People have said to me,\N"You grew up wanting for nothing, didn't you?"{\i0}
+Dialogue: 0,0:02:36.52,0:02:41.44,Default,NTP,0000,0000,0000,,{\i1}My father, my mother, my grandfather\Nwere all really kind-hearted...{\i0}
+Dialogue: 0,0:02:41.06,0:02:42.94,Default,NTP,0000,0000,0000,,I see, I see.
+Dialogue: 0,0:02:41.82,0:02:45.07,Default,NTP,0000,0000,0000,,{\i1}The cell phone was given to me\Nfor security purposes.{\i0}
+Dialogue: 0,0:02:45.28,0:02:48.57,Default,NTP,0000,0000,0000,,{\i1}My father was against it,\Nsaying I was still too young, but...{\i0}
+Dialogue: 0,0:02:53.37,0:02:56.54,Default,NTP,0000,0000,0000,,{\i1}At first, I never went on the internet.{\i0}
+Dialogue: 0,0:02:56.96,0:02:59.37,Default,NTP,0000,0000,0000,,{\i1}And then, right around that time...{\i0}
+Dialogue: 0,0:03:05.92,0:03:07.55,Default,NTP,0000,0000,0000,,{\i1}I witnessed someone getting bullied.{\i0}
+Dialogue: 0,0:03:14.47,0:03:18.14,Default,NTP,0000,0000,0000,,{\i1}"Bullying is wrong."\NThat's what I said, without thinking.{\i0}
+Dialogue: 0,0:03:21.35,0:03:27.36,Default,NTP,0000,0000,0000,,{\i1}Oh... yes. I was scared.\NThat I might be the next one to get picked on.{\i0}
+Dialogue: 0,0:03:27.82,0:03:28.74,Default,NTP,0000,0000,0000,,{\i1}But...{\i0}
+Dialogue: 0,0:03:30.49,0:03:32.62,Default,NTP,0000,0000,0000,,{\i1}Nothing happened.{\i0}
+Dialogue: 0,0:03:32.82,0:03:36.83,Default,NTP,0000,0000,0000,,{\i1}The bullying stopped,\Nand I didn't get bullied, either.{\i0}
+Dialogue: 0,0:03:37.41,0:03:41.67,Default,NTP,0000,0000,0000,,{\i1}Everyone understood.\NThat's what I thought at the time.{\i0}
+Dialogue: 0,0:03:42.13,0:03:47.09,Default,NTP,0000,0000,0000,,{\i1}Everyone's always smiling, having fun...\Nhow wonderful life is, I thought.{\i0}
+Dialogue: 0,0:03:47.09,0:03:51.47,Default,NTP,0000,0000,0000,,{\i1}I decided I wanted to become someone\Nwho could make even more people smile.{\i0}
+Dialogue: 0,0:03:51.97,0:03:57.02,Default,NTP,0000,0000,0000,,{\i1}Since I thought at the time\Nthat my father was in the business of selling art...{\i0}
+Dialogue: 0,0:03:57.31,0:04:01.77,Default,NTP,0000,0000,0000,,{\i1}I thought I'd become an artist,\Ncreate beautiful paintings that would make people smile,{\i0}
+Dialogue: 0,0:04:01.77,0:04:04.19,Default,NTP,0000,0000,0000,,{\i1}and have my father sell them...{\i0}
+Dialogue: 0,0:04:05.11,0:04:09.28,Default,NTP,0000,0000,0000,,Oh, I'm sorry. My cell phone, right?
+Dialogue: 0,0:04:09.49,0:04:14.41,Default,NTP,0000,0000,0000,,{\i1}Not long after that,\NI accidentally left my cell phone at a friend's house...{\i0}
+Dialogue: 0,0:04:14.57,0:04:18.62,Default,NTP,0000,0000,0000,,You don't have to tell me!\NI always do whatever Akane-chan tells me to!
+Dialogue: 0,0:04:18.62,0:04:22.83,Default,NTP,0000,0000,0000,,The other girls don't do anything\Nto displease the young lady either, do they?
+Dialogue: 0,0:04:22.83,0:04:24.13,Default,NTP,0000,0000,0000,,No, they don't.
+Dialogue: 0,0:04:24.13,0:04:27.09,Default,NTP,0000,0000,0000,,The Awakusus are\Nreally frightening people, all right?
+Dialogue: 0,0:04:27.09,0:04:32.22,Default,NTP,0000,0000,0000,,If you have a fight and injure her,\Nthere's no telling what trouble they'd pin on you!
+Dialogue: 0,0:04:33.64,0:04:38.56,Default,NTP,0000,0000,0000,,{\i1}The girl's father and mother came over right away\Nto return my cell phone.{\i0}
+Dialogue: 0,0:04:34.64,0:04:38.10,Default,NTP,0000,0000,0000,,{\an8}Pardon us for causing any trouble...
+Dialogue: 0,0:04:38.10,0:04:39.72,Default,NTP,0000,0000,0000,,{\an8}Thank you for being so considerate.
+Dialogue: 0,0:04:38.93,0:04:42.10,Default,NTP,0000,0000,0000,,{\i1}And that's what made me think\Nsomething wasn't quite right...{\i0}
+Dialogue: 0,0:04:42.64,0:04:48.07,Default,NTP,0000,0000,0000,,{\i1}What? Well, they didn't have to go out of their way\Nto bring it over when we'd see each other at school.{\i0}
+Dialogue: 0,0:04:42.98,0:04:44.81,Default,NTP,0000,0000,0000,,{\an8}No, no, it was no trouble at all.
+Dialogue: 0,0:04:48.61,0:04:50.86,Default,NTP,0000,0000,0000,,Uh... um...
+Dialogue: 0,0:04:52.61,0:04:54.11,Unk,NTP,0000,0000,0000,,Awakusu
+Dialogue: 0,0:04:55.62,0:04:57.12,Special,NTP,0000,0000,0000,,Awakusu Group
+Dialogue: 0,0:04:57.12,0:04:58.62,Special,NTP,0000,0000,0000,,{\fs26}Yakuza
+Dialogue: 0,0:04:58.62,0:05:00.45,Continue,NTP,0000,0000,0000,,...running a gallery as a front.
+Dialogue: 0,0:05:00.83,0:05:02.62,Unk,NTP,0000,0000,0000,,Big Boss Dogen Awakusu
+Dialogue: 0,0:05:01.37,0:05:03.16,Default,NTP,0000,0000,0000,,{\i1}That's when I came to realize.{\i0}
+Dialogue: 0,0:05:03.62,0:05:06.46,Default,NTP,0000,0000,0000,,{\i1}What our family business really was.{\i0}
+Dialogue: 0,0:05:06.46,0:05:10.09,Default,NTP,0000,0000,0000,,{\i1}Everyone was saying,\N"Let's bully Akane-chan next."{\i0}
+Dialogue: 0,0:05:10.96,0:05:16.39,Default,NTP,0000,0000,0000,,{\i1}And they told me if I bullied you with them,\Nthen they'd stop bullying me.{\i0}
+Dialogue: 0,0:05:16.72,0:05:19.51,Default,NTP,0000,0000,0000,,{\i1}But... then one of the girls...{\i0}
+Dialogue: 0,0:05:19.51,0:05:24.06,Default,NTP,0000,0000,0000,,{\i1}She said that your father was really scary,\Nso we shouldn't make you mad...{\i0}
+Dialogue: 0,0:05:25.81,0:05:28.65,Default,NTP,0000,0000,0000,,{\i1}Everybody was afraid of me.{\i0}
+Dialogue: 0,0:05:29.15,0:05:34.86,Default,NTP,0000,0000,0000,,{\i1}Everyone at school, everyone's family,\Neveryone... they were all lying.{\i0}
+Dialogue: 0,0:05:35.41,0:05:38.83,Default,NTP,0000,0000,0000,,{\i1}They were all just pretending to be happy.{\i0}
+Dialogue: 0,0:05:39.41,0:05:41.41,Default,NTP,0000,0000,0000,,Akane! Dinnertime!
+Dialogue: 0,0:05:41.95,0:05:47.13,Default,NTP,0000,0000,0000,,{\i1}I had dinner as usual.\NThat day it was just my mother and me.{\i0}
+Dialogue: 0,0:05:43.87,0:05:45.17,Default,NTP,0000,0000,0000,,Well? Is it good?
+Dialogue: 0,0:05:47.50,0:05:53.92,Default,NTP,0000,0000,0000,,{\i1}I don't remember what we talked about,\Nbut it was probably about school, as usual.{\i0}
+Dialogue: 0,0:05:54.26,0:06:01.43,Default,NTP,0000,0000,0000,,{\i1}What? Hmm... I'm not sure,\Nbut I thought I should just act like nothing had happened.{\i0}
+Dialogue: 0,0:05:56.97,0:05:58.43,Default,NTP,0000,0000,0000,,Homework, homework...
+Dialogue: 0,0:06:01.68,0:06:02.68,Default,NTP,0000,0000,0000,,{\i1}But...{\i0}
+Dialogue: 0,0:06:28.46,0:06:31.96,Default,NTP,0000,0000,0000,,Akane! What's wrong? Akane!
+Dialogue: 0,0:06:32.46,0:06:38.68,Default,NTP,0000,0000,0000,,{\i1}My mother and father seemed to know instantly\Nthat I'd realized what our family business was.{\i0}
+Dialogue: 0,0:06:41.47,0:06:42.89,Default,NTP,0000,0000,0000,,Thank you for the meal.
+Dialogue: 0,0:06:55.94,0:06:58.99,Default,NTP,0000,0000,0000,,{\i1}Especially with my father... somehow...{\i0}
+Dialogue: 0,0:07:00.78,0:07:01.99,Default,NTP,0000,0000,0000,,{\i1}So...{\i0}
+Dialogue: 0,0:07:02.24,0:07:06.71,Default,NTP,0000,0000,0000,,{\i1}I thought if I went someplace\Nwhere nobody knew me or the Awakusu name,{\i0}
+Dialogue: 0,0:07:06.00,0:07:08.00,Released,NTP,0000,0000,0000,,Running away from home
+Dialogue: 0,0:07:06.71,0:07:09.75,Default,NTP,0000,0000,0000,,{\i1}something might change.{\i0}
+Dialogue: 0,0:07:10.21,0:07:13.00,Default,NTP,0000,0000,0000,,{\i1}And then, on a certain messageboard...{\i0}
+Dialogue: 0,0:07:13.00,0:07:15.26,DefaultBW,NTP,0000,0000,0000,,Name: Nakura\NAkane-chan,\NI understand how you feel
+Dialogue: 0,0:07:15.80,0:07:21.80,Default,NTP,0000,0000,0000,,{\i1}I learned a lot from that person.\NAlthough I was a little bit scared...{\i0}
+Dialogue: 0,0:07:29.73,0:07:30.77,Default,NTP,0000,0000,0000,,Hello.
+Dialogue: 0,0:07:31.31,0:07:35.90,Default,NTP,0000,0000,0000,,You're Akane-chan, right?\NNice to meet you, I'm Nakura.
+Dialogue: 0,0:07:36.74,0:07:43.33,Default,NTP,0000,0000,0000,,{\i1}When I met that person, she was a pretty lady,\Nso nice, and so smart.{\i0}
+Dialogue: 0,0:07:43.53,0:07:47.54,Default,NTP,0000,0000,0000,,{\i1}After that, I met with her often\Nand told her my story.{\i0}
+Dialogue: 0,0:07:52.75,0:07:54.75,Default,NTP,0000,0000,0000,,His name is Izaya.
+Dialogue: 0,0:07:54.92,0:07:58.30,Default,NTP,0000,0000,0000,,I thought he could help you out\Nin all kinds of ways.
+Dialogue: 0,0:07:58.47,0:08:01.97,Default,NTP,0000,0000,0000,,{\i1}Yes, she introduced me to Izaya-san.{\i0}
+Dialogue: 0,0:08:02.14,0:08:06.18,Default,NTP,0000,0000,0000,,{\i1}Before I knew it,\NI'd told them everything about my family.{\i0}
+Dialogue: 0,0:08:06.43,0:08:12.56,Default,NTP,0000,0000,0000,,{\i1}I did think that I'd messed up.\NLike, what if they got scared of me? But...{\i0}
+Dialogue: 0,0:08:13.65,0:08:15.94,Default,NTP,0000,0000,0000,,{\i1}Izaya-san said this to me,{\i0}
+Dialogue: 0,0:08:16.48,0:08:23.20,Default,NTP,0000,0000,0000,,{\i1}"It's all right. I'm not scared.\NWell, that would be a lie. But you're you, Akane-chan."{\i0}
+Dialogue: 0,0:08:24.49,0:08:28.04,Default,NTP,0000,0000,0000,,{\i1}One month later, I ran away from home.{\i0}
+Dialogue: 0,0:08:28.87,0:08:32.00,Default,NTP,0000,0000,0000,,{\i1}I spent the night at manga cafés and diners.{\i0}
+Dialogue: 0,0:08:32.00,0:08:36.80,Default,NTP,0000,0000,0000,,{\i1}Izaya-san gave me lots of pointers\Non how to succeed at running away.{\i0}
+Dialogue: 0,0:08:37.13,0:08:39.67,Default,NTP,0000,0000,0000,,{\i1}"Do you hate your grandpa and your dad?"{\i0}
+Dialogue: 0,0:08:39.84,0:08:42.22,Default,NTP,0000,0000,0000,,{\i1}Izaya-san asked me that once.{\i0}
+Dialogue: 0,0:08:42.47,0:08:43.59,Default,NTP,0000,0000,0000,,I don't know.
+Dialogue: 0,0:08:43.59,0:08:45.47,Default,NTP,0000,0000,0000,,{\i1}That's how I answered him.{\i0}
+Dialogue: 0,0:08:45.97,0:08:51.14,Default,NTP,0000,0000,0000,,{\i1}Then he told me that I should\Nthink it over carefully until I did know.{\i0}
+Dialogue: 0,0:08:51.43,0:08:51.98,Default,NTP,0000,0000,0000,,{\i1}But...{\i0}
+Dialogue: 0,0:08:52.48,0:08:55.94,Default,NTP,0000,0000,0000,,{\i1}"There's no guarantee that\Nthey'll both be safe until then."{\i0}
+Dialogue: 0,0:08:56.94,0:09:01.74,Default,NTP,0000,0000,0000,,{\i1}He said he was worried because my grandfather and father\Nwere both feared by so many people.{\i0}
+Dialogue: 0,0:09:02.24,0:09:06.87,Default,NTP,0000,0000,0000,,{\i1}"The person in the photo\Nis the scariest hit man in all of Ikebukuro,{\i0}
+Dialogue: 0,0:09:06.87,0:09:11.45,Default,NTP,0000,0000,0000,,{\i1}and he might be targeting\Nyour grandfather and father," he said.{\i0}
+Dialogue: 0,0:09:12.37,0:09:14.50,Default,NTP,0000,0000,0000,,{\i1}That man's name...{\i0}
+Dialogue: 0,0:09:14.87,0:09:17.75,Default,NTP,0000,0000,0000,,{\i1}He said it was Heiwajima Shizuo.{\i0}
+Dialogue: 0,0:09:22.63,0:09:24.97,Default,NTP,0000,0000,0000,,{\i1}If we go on like this,\Nwe'll attract too much attention, huh?{\i0}
+Dialogue: 0,0:09:41.90,0:09:43.61,Default,NTP,0000,0000,0000,,Jeez, what a pest!
+Dialogue: 0,0:09:45.24,0:09:48.12,Default,NTP,0000,0000,0000,,Ah, so your comrades\Nwere done in by Shizuo...?
+Dialogue: 0,0:09:49.41,0:09:52.45,Default,NTP,0000,0000,0000,,But I wonder why he was with Akane-chan.
+Dialogue: 0,0:09:52.62,0:09:55.67,Default,NTP,0000,0000,0000,,Who knows? That's what I'd like to know.
+Dialogue: 0,0:09:55.67,0:09:59.46,Default,NTP,0000,0000,0000,,By the way, what kind of condition were the bodies in?
+Dialogue: 0,0:09:59.63,0:10:03.51,Default,NTP,0000,0000,0000,,Oh, uh, just out of personal interest...
+Dialogue: 0,0:10:10.43,0:10:12.93,Default,NTP,0000,0000,0000,,Now this isn't Shizuo's handiwork.
+Dialogue: 0,0:10:13.22,0:10:15.44,Default,NTP,0000,0000,0000,,Is that your opinion as a doctor?
+Dialogue: 0,0:10:15.44,0:10:20.19,Default,NTP,0000,0000,0000,,No, rather, as his longtime friend.\NThese bodies are in too good shape.
+Dialogue: 0,0:10:20.65,0:10:23.11,Default,NTP,0000,0000,0000,,If it were him, he wouldn't have stopped there.
+Dialogue: 0,0:10:24.82,0:10:28.28,Default,NTP,0000,0000,0000,,Shiki-san, you know that\Nwell enough yourself, don't you?
+Dialogue: 0,0:10:28.53,0:10:33.70,Default,NTP,0000,0000,0000,,That may be true, but who else\N could kill our guys with his bare hands...?
+Dialogue: 0,0:10:33.87,0:10:36.12,Next,NTP,0000,0000,0000,,Escaping Criminal Caught\N on Security Camera...\NSerial Murderer in Ikebukuro
+Dialogue: 0,0:10:42.05,0:10:43.67,TopCen,NTP,0000,0000,0000,,Hijiribe
+Dialogue: 0,0:10:52.47,0:10:54.06,Default,NTP,0000,0000,0000,,Oh, so it's you.
+Dialogue: 0,0:10:54.06,0:10:58.02,Default,NTP,0000,0000,0000,,What's up, all of a sudden?\NI thought we were done talking this morning.
+Dialogue: 0,0:10:58.23,0:11:01.65,Default,NTP,0000,0000,0000,,Or could it be that\Nyou miss the sound of my voice?
+Dialogue: 0,0:11:01.65,0:11:05.24,Default,NTP,0000,0000,0000,,If so, that's far too heavy a load for me.
+Dialogue: 0,0:11:06.49,0:11:09.74,Default,NTP,0000,0000,0000,,I don't have time to listen to your inane jokes.
+Dialogue: 0,0:11:10.20,0:11:11.74,Default,NTP,0000,0000,0000,,What did you say to Mikado?
+Dialogue: 0,0:11:11.91,0:11:13.41,Default,NTP,0000,0000,0000,,{\i1}What are you talking about?{\i0}
+Dialogue: 0,0:11:13.41,0:11:16.45,Default,NTP,0000,0000,0000,,It was you who jacked my handle, wasn't it?
+Dialogue: 0,0:11:16.79,0:11:18.00,Default,NTP,0000,0000,0000,,Where's your proof?
+Dialogue: 0,0:11:18.00,0:11:20.83,Default,NTP,0000,0000,0000,,{\i1}No one but you would do something like that.{\i0}
+Dialogue: 0,0:11:21.00,0:11:22.63,Default,NTP,0000,0000,0000,,{\i1}What did you say to Mikado?{\i0}
+Dialogue: 0,0:11:22.88,0:11:27.09,Default,NTP,0000,0000,0000,,Why do you think that\NI said anything to Mikado-kun?
+Dialogue: 0,0:11:27.09,0:11:29.55,Default,NTP,0000,0000,0000,,Even if I did assume your name,
+Dialogue: 0,0:11:29.72,0:11:32.60,Default,NTP,0000,0000,0000,,it doesn't necessarily mean\Nthat I talked to Tanaka Taro-kun, right?
+Dialogue: 0,0:11:32.97,0:11:37.93,Default,NTP,0000,0000,0000,,If someone named Orihara Izaya\Nwas to assume my name and pull some stunt,
+Dialogue: 0,0:11:38.48,0:11:41.06,Default,NTP,0000,0000,0000,,I can't think of any other purpose.
+Dialogue: 0,0:11:41.23,0:11:43.73,Default,NTP,0000,0000,0000,,Let's say you're right.\NWhat are you going to do about it?
+Dialogue: 0,0:11:43.73,0:11:45.48,Default,NTP,0000,0000,0000,,{\i1}Answer the question!{\i0}
+Dialogue: 0,0:11:45.73,0:11:48.24,Default,NTP,0000,0000,0000,,I wish I had the time.
+Dialogue: 0,0:11:48.24,0:11:51.74,Default,NTP,0000,0000,0000,,Don't you know that\Nsomething's happening in Ikebukuro right now?
+Dialogue: 0,0:11:52.66,0:11:53.74,Default,NTP,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:11:53.91,0:11:56.75,Default,NTP,0000,0000,0000,,Now that's what you should ask him...
+Dialogue: 0,0:11:56.75,0:11:58.04,Default,NTP,0000,0000,0000,,{\i1}Mikado-kun himself.{\i0}
+Dialogue: 0,0:11:58.04,0:12:00.58,Default,NTP,0000,0000,0000,,{\i1}That's right, just tell him to his face.{\i0}
+Dialogue: 0,0:12:00.87,0:12:04.71,Default,NTP,0000,0000,0000,,{\i1}"That wasn't me yesterday.\NIt was Orihara Izaya."{\i0}
+Dialogue: 0,0:12:05.05,0:12:09.01,Default,NTP,0000,0000,0000,,{\i1}Easy enough, right?\NSince you and Mikado-kun are best friends.{\i0}
+Dialogue: 0,0:12:09.92,0:12:10.97,Default,NTP,0000,0000,0000,,{\i1}Cut it out.{\i0}
+Dialogue: 0,0:12:10.97,0:12:15.43,Default,NTP,0000,0000,0000,,No matter what you think,\Nthat's how Mikado-kun sees you, apparently.
+Dialogue: 0,0:12:15.43,0:12:20.27,Default,NTP,0000,0000,0000,,Seriously, he's too trusting.\NHe's beyond salvation!
+Dialogue: 0,0:12:20.56,0:12:24.15,Default,NTP,0000,0000,0000,,{\i1}And that's why he's so noble.\NLike a sacrificial lamb.{\i0}
+Dialogue: 0,0:12:24.15,0:12:25.44,Default,NTP,0000,0000,0000,,I said, cut it out!
+Dialogue: 0,0:12:27.57,0:12:30.15,Default,NTP,0000,0000,0000,,I'm not fond of getting yelled at.
+Dialogue: 0,0:12:32.99,0:12:34.37,Default,NTP,0000,0000,0000,,You bastard.
+Dialogue: 0,0:12:35.28,0:12:37.29,Flashback,NTP,0000,0000,0000,,{\fs22}Emergency!\N\NIn Ikebukuro, Toramaru\N are attacking Dollars!!
+Dialogue: 0,0:12:35.78,0:12:39.54,Default,NTP,0000,0000,0000,,You out for revenge on behalf of the guys\Nwho got wasted by Shizuo and me?
+Dialogue: 0,0:12:39.54,0:12:43.42,Default,NTP,0000,0000,0000,,That wasn't the Dollars. I did that myself.
+Dialogue: 0,0:12:43.42,0:12:48.09,Default,NTP,0000,0000,0000,,About that, we were the ones at fault,\Nso I got no beef with you.
+Dialogue: 0,0:12:48.09,0:12:50.72,Default,NTP,0000,0000,0000,,Sure, I thought it was overkill,
+Dialogue: 0,0:12:50.72,0:12:54.05,Default,NTP,0000,0000,0000,,so I did call out that guy Heiwajima Shizuo.
+Dialogue: 0,0:12:54.05,0:12:56.81,Default,NTP,0000,0000,0000,,Oh, so Shizuo did that to you?
+Dialogue: 0,0:12:56.81,0:13:01.18,Default,NTP,0000,0000,0000,,So anyway, we've buried the hatchet\Non that incident.
+Dialogue: 0,0:13:01.64,0:13:05.31,Default,NTP,0000,0000,0000,,But do you know\Nwhat you Dollars did in Saitama?
+Dialogue: 0,0:13:06.69,0:13:11.78,Default,NTP,0000,0000,0000,,If it was just our team that got taken out,\NI could live with it.
+Dialogue: 0,0:13:12.11,0:13:17.70,Default,NTP,0000,0000,0000,,But taking out guys who just happened to be there?\NNo way was I gonna keep quiet about that.
+Dialogue: 0,0:13:18.08,0:13:20.75,Default,NTP,0000,0000,0000,,So what do you want with me?
+Dialogue: 0,0:13:20.95,0:13:24.25,Default,NTP,0000,0000,0000,,You're like one of the faces of the Dollars, right?
+Dialogue: 0,0:13:24.25,0:13:26.21,Default,NTP,0000,0000,0000,,Who the hell is your boss?
+Dialogue: 0,0:13:27.09,0:13:29.71,Default,NTP,0000,0000,0000,,I see, so that's your move...
+Dialogue: 0,0:13:29.71,0:13:30.88,Default,NTP,0000,0000,0000,,The hell if I know.
+Dialogue: 0,0:13:30.88,0:13:31.59,Default,NTP,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:31.97,0:13:35.39,Default,NTP,0000,0000,0000,,I said I don't know\Nwho the hell the boss of the Dollars is.
+Dialogue: 0,0:13:36.22,0:13:39.47,Default,NTP,0000,0000,0000,,Don't play clueless with me.\NThere's no way you don't know.
+Dialogue: 0,0:13:40.22,0:13:42.23,Default,NTP,0000,0000,0000,,You know how there are hordes of locusts?
+Dialogue: 0,0:13:42.23,0:13:42.89,Default,NTP,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:43.44,0:13:47.19,Default,NTP,0000,0000,0000,,You think those locusts\Nknow who their leader is?
+Dialogue: 0,0:13:47.19,0:13:52.24,Default,NTP,0000,0000,0000,,Same with schools of fish.\NAlthough I guess ants and bees have their queens.
+Dialogue: 0,0:13:52.24,0:13:54.49,Default,NTP,0000,0000,0000,,It's the same kind of thing.
+Dialogue: 0,0:13:56.91,0:14:00.45,Default,NTP,0000,0000,0000,,And besides, if one of your guys\Ngets offed by some foreigner,
+Dialogue: 0,0:14:00.45,0:14:04.87,Default,NTP,0000,0000,0000,,everyone from that country\Nstarts to look like the enemy... isn't it like that?
+Dialogue: 0,0:14:05.04,0:14:07.04,Default,NTP,0000,0000,0000,,What you guys are doing?
+Dialogue: 0,0:14:07.63,0:14:12.42,Default,NTP,0000,0000,0000,,The Dollars are mostly made up of guys\Nwho are there because they want to be, right?
+Dialogue: 0,0:14:12.42,0:14:15.26,Default,NTP,0000,0000,0000,,Then it's just like a sports team or a club.
+Dialogue: 0,0:14:16.93,0:14:22.85,Default,NTP,0000,0000,0000,,When someone in an athletic club causes a scandal,\Nthe whole team takes the rap. Happens all the time.
+Dialogue: 0,0:14:23.02,0:14:28.86,Default,NTP,0000,0000,0000,,Anyone calling himself a member of the Dollars\Nwithout that possibility in mind is just a moron, right?
+Dialogue: 0,0:14:31.73,0:14:32.57,Default,NTP,0000,0000,0000,,Right.
+Dialogue: 0,0:14:32.78,0:14:33.40,Default,NTP,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:35.07,0:14:39.16,Default,NTP,0000,0000,0000,,Well, speaking for myself,\NI am prepared to face the music in that case.
+Dialogue: 0,0:14:39.16,0:14:42.49,Default,NTP,0000,0000,0000,,But this clueless bunch going rogue on us?
+Dialogue: 0,0:14:42.49,0:14:45.66,Default,NTP,0000,0000,0000,,I just can't bring myself to laugh at them\Nfor getting what they deserve.
+Dialogue: 0,0:14:46.08,0:14:47.67,Default,NTP,0000,0000,0000,,What are you trying to say?
+Dialogue: 0,0:14:47.87,0:14:51.17,Default,NTP,0000,0000,0000,,That I'll be happy to take you on\Nin this fight of yours.
+Dialogue: 0,0:14:52.42,0:14:55.34,Default,NTP,0000,0000,0000,,Too conspicuous here.\NLet's go somewhere else.
+Dialogue: 0,0:14:55.67,0:14:56.93,TopCen,NTP,0000,0000,0000,,Raira Academy Field No. 2
+Dialogue: 0,0:14:58.72,0:15:01.97,Default,NTP,0000,0000,0000,,Kabaddi, kabaddi, kabaddi, kabaddi...
+Dialogue: 0,0:15:09.23,0:15:12.86,Default,NTP,0000,0000,0000,,Who knew such a place existed\Nsmack in the middle of Ikebukuro...
+Dialogue: 0,0:15:13.07,0:15:16.65,Default,NTP,0000,0000,0000,,Don't you want to put that thing\Nyou're carrying to use?
+Dialogue: 0,0:15:16.65,0:15:18.91,Default,NTP,0000,0000,0000,,Isn't it a shortened bokuto or something?
+Dialogue: 0,0:15:19.49,0:15:21.53,Default,NTP,0000,0000,0000,,Oh, right. So you noticed it.
+Dialogue: 0,0:15:21.53,0:15:25.04,Default,NTP,0000,0000,0000,,You're injured. I'll give you a handicap.
+Dialogue: 0,0:15:25.04,0:15:29.50,Default,NTP,0000,0000,0000,,Right back atcha.\NWhy don't I lend you this, old man?
+Dialogue: 0,0:15:29.50,0:15:32.59,Default,NTP,0000,0000,0000,,Hey, I'm not even 25 yet. Brat!
+Dialogue: 0,0:15:37.22,0:15:40.22,Default,NTP,0000,0000,0000,,Jeez, talk about crashing the party!
+Dialogue: 0,0:15:40.22,0:15:43.22,Default,NTP,0000,0000,0000,,Oh, we got this.\NThese guys are total wimps, huh?
+Dialogue: 0,0:15:43.22,0:15:47.60,Default,NTP,0000,0000,0000,,Anyway, that Mikado-senpai dude's a real wuss,\Ndon't you think?
+Dialogue: 0,0:15:47.60,0:15:50.60,Default,NTP,0000,0000,0000,,Did that guy really start the Dollars?
+Dialogue: 0,0:15:50.60,0:15:53.02,Default,NTP,0000,0000,0000,,Aoba better not be messing with us!
+Dialogue: 0,0:15:53.02,0:15:55.78,Default,NTP,0000,0000,0000,,If he is, I'll kill him! And I'll take his girl, too!
+Dialogue: 0,0:15:55.78,0:15:57.99,Default,NTP,0000,0000,0000,,Did Aoba have a girlfriend?
+Dialogue: 0,0:15:57.99,0:15:59.99,Default,NTP,0000,0000,0000,,You know, those twins!
+Dialogue: 0,0:15:59.99,0:16:01.95,Default,NTP,0000,0000,0000,,I'll kill him! I'm gonna kill him now!
+Dialogue: 0,0:16:01.95,0:16:04.62,Default,NTP,0000,0000,0000,,{\i1}How did these guys find us here?{\i0}
+Dialogue: 0,0:16:05.29,0:16:07.50,Default,NTP,0000,0000,0000,,{\i1}Don't tell me it was Orihara Izaya...{\i0}
+Dialogue: 0,0:16:12.83,0:16:18.38,Default,NTP,0000,0000,0000,,{\i1}"Just now, Kadota-san of the Dollars started walking\Ntowards the back of Field No. 2 at Raira!"{\i0}
+Dialogue: 0,0:16:18.38,0:16:20.63,Default,NTP,0000,0000,0000,,{\i1}He was with some scary-looking dude,{\i0}
+Dialogue: 0,0:16:20.63,0:16:24.35,Default,NTP,0000,0000,0000,,{\i1}but it could be that he's with the guys\Nwho are attacking the Dollars right now."{\i0}
+Dialogue: 0,0:16:24.76,0:16:29.31,Default,NTP,0000,0000,0000,,{\i1}"I don't think Kadota-san would lose any fight,\Nbut I'm still worried..."{\i0}
+Dialogue: 0,0:16:30.44,0:16:32.60,Default,NTP,0000,0000,0000,,{\i1}This guy is the leader of Toramaru...{\i0}
+Dialogue: 0,0:16:34.77,0:16:39.24,Default,NTP,0000,0000,0000,,Could one of you go to Field No. 2\Nand see what's going on?
+Dialogue: 0,0:16:39.24,0:16:40.61,Default,NTP,0000,0000,0000,,Okay, I will.
+Dialogue: 0,0:16:40.61,0:16:42.61,Default,NTP,0000,0000,0000,,Hey, hey, you stealing that thing?
+Dialogue: 0,0:16:43.03,0:16:46.41,Default,NTP,0000,0000,0000,,Well, this one's got the keys in the ignition!
+Dialogue: 0,0:16:47.33,0:16:48.83,Default,NTP,0000,0000,0000,,Hold up. Get off.
+Dialogue: 0,0:16:48.83,0:16:52.62,Default,NTP,0000,0000,0000,,Huh? You're not the type to say\Nthat stealing's bad, right?
+Dialogue: 0,0:16:56.13,0:16:57.30,Default,NTP,0000,0000,0000,,Black...
+Dialogue: 0,0:17:01.26,0:17:05.30,Default,NTP,0000,0000,0000,,The bikes that the Toramaru guys rode up on\Nare out front. Take one of those!
+Dialogue: 0,0:17:05.30,0:17:07.14,Default,NTP,0000,0000,0000,,What's your problem all of a sudden?
+Dialogue: 0,0:17:07.14,0:17:10.06,Default,NTP,0000,0000,0000,,I'm gonna try to reel in this thread.
+Dialogue: 0,0:17:10.89,0:17:13.73,Default,NTP,0000,0000,0000,,Not that I know how far it goes...
+Dialogue: 0,0:17:31.00,0:17:33.67,Default,NTP,0000,0000,0000,,Can't just have the Dollars getting routed, can we?
+Dialogue: 0,0:17:41.30,0:17:46.39,Default,NTP,0000,0000,0000,,Finding that flea bastard with these binoculars...\NWell, that's not happening, is it?
+Dialogue: 0,0:17:47.97,0:17:52.10,Default,NTP,0000,0000,0000,,I came here because I thought it would be harder for him\Nto make a move with so many witnesses around...
+Dialogue: 0,0:17:52.89,0:17:55.35,Default,NTP,0000,0000,0000,,Doesn't look like I can stay here for long.
+Dialogue: 0,0:17:55.65,0:17:59.07,Default,NTP,0000,0000,0000,,He might have already been\Nat the office, or where Tom-san is.
+Dialogue: 0,0:17:59.23,0:18:02.61,Default,NTP,0000,0000,0000,,And Shinra's apartment, and Kasuka's place...
+Dialogue: 0,0:18:02.94,0:18:03.74,Default,NTP,0000,0000,0000,,Damn!
+Dialogue: 0,0:18:04.90,0:18:07.37,Default,NTP,0000,0000,0000,,For God's sake, what's with today?
+Dialogue: 0,0:18:09.66,0:18:10.37,Default,NTP,0000,0000,0000,,Huh?
+Dialogue: 0,0:18:11.12,0:18:14.50,Default,NTP,0000,0000,0000,,Kadota? And is that the dude from the other day?
+Dialogue: 0,0:18:17.75,0:18:20.25,Special,NTP,0000,0000,0000,,From: Nakura\NSubject: Important Information!
+Dialogue: 0,0:18:18.08,0:18:20.25,Default,NTP,0000,0000,0000,,I feel like hurling...
+Dialogue: 0,0:18:38.86,0:18:40.11,Default,NTP,0000,0000,0000,,It's all right.
+Dialogue: 0,0:18:40.11,0:18:43.11,Default,NTP,0000,0000,0000,,I'm on your side, Akane-chan,\Nso no worries.
+Dialogue: 0,0:18:44.53,0:18:47.28,Default,NTP,0000,0000,0000,,Big Sister, you're a good person?
+Dialogue: 0,0:18:48.07,0:18:48.70,Default,NTP,0000,0000,0000,,Huh?
+Dialogue: 0,0:18:51.24,0:18:56.67,Default,NTP,0000,0000,0000,,{\i1}Oh, right. I guess a headless horse\Nis a graphic sight for a child...{\i0}
+Dialogue: 0,0:18:59.54,0:19:00.04,Default,NTP,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:01.63,0:19:04.30,Default,NTP,0000,0000,0000,,Oh, Shooter! Are you feeling depressed?
+Dialogue: 0,0:19:05.05,0:19:09.76,Default,NTP,0000,0000,0000,,Don't worry, this horse is very gentle.
+Dialogue: 0,0:19:09.93,0:19:15.39,Default,NTP,0000,0000,0000,,R-Right. You know, he's like one of those superheroes\Nthat can switch their faces!
+Dialogue: 0,0:19:15.39,0:19:18.02,Default,NTP,0000,0000,0000,,And right now, he happens to be\Nchanging to a brand-new face...
+Dialogue: 0,0:19:18.02,0:19:19.06,Default,NTP,0000,0000,0000,,Really?
+Dialogue: 0,0:19:19.06,0:19:20.06,Default,NTP,0000,0000,0000,,Yes, really.
+Dialogue: 0,0:19:20.94,0:19:23.27,Default,NTP,0000,0000,0000,,{\i1}And stay away from the Dollars for a while.{\i0}
+Dialogue: 0,0:19:23.27,0:19:27.07,Default,NTP,0000,0000,0000,,{\i1}It's not the Dollars spinning out of control\Nthat you're afraid of, right?{\i0}
+Dialogue: 0,0:19:27.95,0:19:32.62,Default,NTP,0000,0000,0000,,{\i1}Isn't it the thought of being left behind\Nby the ever-transforming Dollars?{\i0}
+Dialogue: 0,0:19:32.62,0:19:36.66,Default,NTP,0000,0000,0000,,{\i1}So what I want is for you\Nto become the leader of the Blue Square.{\i0}
+Dialogue: 0,0:19:36.66,0:19:38.42,Default,NTP,0000,0000,0000,,{\i1}What am I supposed to do...?{\i0}
+Dialogue: 0,0:19:38.42,0:19:41.21,Default,NTP,0000,0000,0000,,Look! There's his new face!
+Dialogue: 0,0:19:44.88,0:19:48.68,Default,NTP,0000,0000,0000,,No way... S-Sorry, Celty-san!
+Dialogue: 0,0:19:49.30,0:19:52.76,Default,NTP,0000,0000,0000,,There's somewhere I need to be right now,\Nso I'll be leaving!
+Dialogue: 0,0:19:52.76,0:19:58.14,Default,NTP,0000,0000,0000,,And sorry, Sonohara-san! I don't think I can go\N with you today, so you should probably head home.
+Dialogue: 0,0:19:58.48,0:20:03.06,Default,NTP,0000,0000,0000,,Also, if you hear from Aoba-kun,\Nwhatever you do, don't answer, okay?
+Dialogue: 0,0:20:06.40,0:20:07.94,Default,NTP,0000,0000,0000,,Somebody just came out.
+Dialogue: 0,0:20:08.11,0:20:12.74,Default,NTP,0000,0000,0000,,It's the boy the Black Bike was escorting.\NHe does seem to be working solo...
+Dialogue: 0,0:20:13.07,0:20:15.70,Default,NTP,0000,0000,0000,,Is that building the Black Bike's hideout?
+Dialogue: 0,0:20:15.70,0:20:17.66,Default,NTP,0000,0000,0000,,Too soon to make that assumption.
+Dialogue: 0,0:20:17.66,0:20:19.25,Default,NTP,0000,0000,0000,,What should we do about that punk?
+Dialogue: 0,0:20:20.50,0:20:23.34,Default,NTP,0000,0000,0000,,The boy's true identity warrants investigation.
+Dialogue: 0,0:20:23.92,0:20:26.34,Default,NTP,0000,0000,0000,,I will follow that boy.
+Dialogue: 0,0:20:27.09,0:20:31.97,Default,NTP,0000,0000,0000,,Sloan, I ask that you stay here and continue tracking\Nthe Black Bike and the girl with the glasses.
+Dialogue: 0,0:20:31.97,0:20:33.39,Default,NTP,0000,0000,0000,,Please understand.
+Dialogue: 0,0:20:33.39,0:20:35.51,Default,NTP,0000,0000,0000,,I understand. You can leave this to me.
+Dialogue: 0,0:20:37.43,0:20:38.81,Default,NTP,0000,0000,0000,,I wonder what's going on?
+Dialogue: 0,0:20:40.52,0:20:43.52,Default,NTP,0000,0000,0000,,Uh... um... What happened, exactly?
+Dialogue: 0,0:20:49.28,0:20:54.70,Default,NTP,0000,0000,0000,,{\i1}"The biker gang that's attacking\Nthe Dollars right now is called Toramaru,{\i0}
+Dialogue: 0,0:20:54.70,0:21:00.12,Default,NTP,0000,0000,0000,,{\i1}and I just spotted one of their leader's girlfriends\Neating in Ikebukuro.{\i0}
+Dialogue: 0,0:21:00.12,0:21:04.38,Default,NTP,0000,0000,0000,,{\i1}I don't have the guts to kidnap her,\Nso anyone who's up to it, give it a go!{\i0}
+Dialogue: 0,0:21:04.58,0:21:07.09,Default,NTP,0000,0000,0000,,{\i1}It's the girl sitting\Nsecond from the left in the photo..."{\i0}
+Dialogue: 0,0:21:08.38,0:21:10.59,Default,NTP,0000,0000,0000,,{\i1}Wait, I've seen this girl somewhere...{\i0}
+Dialogue: 0,0:21:11.59,0:21:16.05,Default,NTP,0000,0000,0000,,{\i1}Oh... Kamichika-san? They're being ordered\N to kidnap Kamichika-san's friend?{\i0}
+Dialogue: 0,0:21:17.14,0:21:18.06,Default,NTP,0000,0000,0000,,Celty-san...
+Dialogue: 0,0:21:18.89,0:21:20.77,Default,NTP,0000,0000,0000,,I'll be going now, too!
+Dialogue: 0,0:21:25.36,0:21:28.94,Default,NTP,0000,0000,0000,,Those people from yesterday\Nmight attack again. So be careful.
+Dialogue: 0,0:21:29.65,0:21:32.95,Default,NTP,0000,0000,0000,,Right. Uh... um... Thank you very much.
+Dialogue: 0,0:21:33.57,0:21:38.37,Default,NTP,0000,0000,0000,,Akane-chan, this lady is a good person,\Nso wait for me without any worries, okay?
+Dialogue: 0,0:21:38.79,0:21:39.54,Default,NTP,0000,0000,0000,,Okay.
+Dialogue: 0,0:21:42.50,0:21:45.71,Default,NTP,0000,0000,0000,,Varona, the girl with the glasses just ran off, too.
+Dialogue: 0,0:21:45.92,0:21:47.84,Default,NTP,0000,0000,0000,,Looks like she's going after the punk.
+Dialogue: 0,0:21:47.84,0:21:48.96,Default,NTP,0000,0000,0000,,And the Black Bike?
+Dialogue: 0,0:21:49.13,0:21:50.46,Default,NTP,0000,0000,0000,,{\i1}No sign of that one.{\i0}
+Dialogue: 0,0:21:50.92,0:21:56.64,Default,NTP,0000,0000,0000,,Understood. I shall pursue both the boy and the girl.\NLike catching two stools in one fall.
+Dialogue: 0,0:21:56.64,0:22:01.47,Default,NTP,0000,0000,0000,,{\i1}There's no such phrase.\NBesides, there's no telling what kind of punk that kid is.{\i0}
+Dialogue: 0,0:22:01.73,0:22:05.40,Default,NTP,0000,0000,0000,,Affirmative. As an opponent, he is worthy.
+Dialogue: 0,0:22:05.40,0:22:07.48,Default,NTP,0000,0000,0000,,{\i1}You seem to be enjoying yourself, Varona.{\i0}
+Dialogue: 0,0:22:07.86,0:22:10.98,Default,NTP,0000,0000,0000,,Let's suppose that boy is another aberration.
+Dialogue: 0,0:22:10.98,0:22:13.49,Default,NTP,0000,0000,0000,,In my eyes, nothing would be more welcome.
+Dialogue: 0,0:23:45.04,0:24:00.05,DefaultBW,NTP,0000,0000,0000,,Next Time\Non Durarara!! x2\N\NNo Use Crying Over Spilt Milk
+Dialogue: 0,0:23:45.87,0:23:47.58,Locked,NTP,0000,0000,0000,,What are the Dollars, anyway?
+Dialogue: 0,0:23:47.58,0:23:49.29,Locked,NTP,0000,0000,0000,,Can't describe it in a word.
+Dialogue: 0,0:23:49.29,0:23:51.54,Locked,NTP,0000,0000,0000,,I only just joined myself.
+Dialogue: 0,0:23:51.54,0:23:53.46,Locked,NTP,0000,0000,0000,,Even if you're one of them, it's not obvious.
+Dialogue: 0,0:23:53.46,0:23:56.26,Locked,NTP,0000,0000,0000,,It's way too late to tell you now.
+Dialogue: 0,0:23:56.26,0:23:59.05,Locked,NTP,0000,0000,0000,,Next time: No Use Crying Over Spilt Milk.

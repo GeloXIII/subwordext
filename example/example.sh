@@ -1,0 +1,1 @@
+python3 ../src/subwordext.py --sub ./sample_sub.ssa
