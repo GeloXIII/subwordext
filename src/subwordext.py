@@ -2,10 +2,32 @@ import os
 import sys
 import argparse
 
+import nltk
 from nltk.stem import WordNetLemmatizer
 
 
+
 class Subs_Words_Extractor(object):
+
+    ptp_to_wn_map = {
+        'JJ': 'a',
+        'JJR': 'a',
+        'JJS': 'a',
+        'VB': 'v',
+        'VBD': 'v',
+        'VBG': 'v',
+        'VBN': 'v',
+        'VBP': 'v',
+        'VBZ ': 'v',
+        'RB': 'r',
+        'RBR': 'r',
+        'RBS': 'r',
+        'RP ': 'r',
+        'NN': 'n',
+        'NNS': 'n',
+        'NNP': 'n',
+        'NNPS': 'n'
+    }
 
     def __init__(self):
 
@@ -22,10 +44,13 @@ class Subs_Words_Extractor(object):
 
         try:
             WordNetLemmatizer.lemmatize('zebra', 'v')
+            tmp = nltk.word_tokenize('zebra text')
+            nltk.pos_tag(tmp)
         except LookupError:
-            print('wordnet dictionary not found, download it')
-            import nltk
             nltk.download('wordnet')
+            nltk.download('maxent_treebank_pos_tagger')
+            nltk.download('punkt')
+
         self.WNL = WordNetLemmatizer()
 
         self.load_known_words()
@@ -91,25 +116,24 @@ class Subs_Words_Extractor(object):
         with open(self.new_words_file, 'wt', encoding='utf-8') as f:
             f.write(output_words)
 
+        return len(self.new_words)
+
     def parse_ssa_text_line(self, text):
         line_sep = '\\N'
         sub_lines = text.split(line_sep)
 
         line_words = set()
         for sl in sub_lines:
-            words = sl.split(' ')
-            for w in words:
+            words_tag_pairs = nltk.pos_tag(nltk.word_tokenize(sl))
+            for w, tag in words_tag_pairs:
                 w = w.lower()
-                if "'" in w:
-                    w = w.split("'")[0]
-                if w.startswith('{'):
-                    w = w.split('}')[-1]
-                if w.endswith('}'):
-                    w = w.split('{')[0]
-                w = w.strip('!?., \t\n\\"\'0123456789:')
-                if w:
-                    line_words.add(
-                        self.WNL.lemmatize(w, pos='v'))
+                w = w.strip(',')
+                if w.isalpha():
+                    wn_pos = self.ptp_to_wn_map.get(tag, 'x')
+                    if wn_pos == 'x':
+                        line_words.add(self.WNL.lemmatize(w))
+                    else:
+                        line_words.add(self.WNL.lemmatize(w, pos=wn_pos))
 
         self.sub_words.update(line_words)
 
@@ -120,8 +144,8 @@ class Subs_Words_Extractor(object):
 
 def main():
     swe = Subs_Words_Extractor()
-    swe.extract_new_words()
-    print('all OK, open file words_list_new')
+    count = swe.extract_new_words()
+    print('all OK, {} new words found'.format(count))
 
 
 if __name__ == '__main__':
