@@ -5,6 +5,9 @@ import argparse
 import nltk
 from nltk.stem import WordNetLemmatizer
 
+from yandex_translate import (YandexTranslate,
+                              YandexTranslateException)
+
 
 
 class Subs_Words_Extractor(object):
@@ -38,6 +41,10 @@ class Subs_Words_Extractor(object):
         self.known_words_file = os.path.abspath('./swe_word_list_known')
         self.ignored_words_file = os.path.abspath('./swe_word_list_ignored')
         self.new_words_file = os.path.abspath('./swe_word_list_new')
+        self.new_words_translation_file = os.path.abspath(
+            './swe_word_list_new_{}')
+        self.yandex_translate_key_file = os.path.abspath(
+            './swe_yandex_translate.key')
         self.subs_file = None
 
         self.parse_cmd_args()
@@ -61,8 +68,14 @@ class Subs_Words_Extractor(object):
 
         self.parser = argparse.ArgumentParser(description=description)
         self.parser.add_argument(
-            "--sub", help="subtitle file (with .ssa format)")
-
+            '--sub', help='subtitle file (with .ssa format)')
+        self.parser.add_argument(
+            '--add-to-known',
+            help='add extracted words to list of known words',
+            action='store_true')
+        self.parser.add_argument(
+            '--translate',
+            help='translate extracted words with yandex translate "en-ru"')
         self.args = self.parser.parse_args()
 
         self.subs_file = self.args.sub
@@ -91,8 +104,7 @@ class Subs_Words_Extractor(object):
 
     def extract_new_words(self):
         if not self.subs_file:
-            print('exit, subtitle file not specified {}\n'.format(
-                self.subs_file))
+            print('exit, subtitle file not specified\n')
             self.parser.print_help()
             sys.exit(1)
         if not self.subs_file.endswith('.ssa'):
@@ -115,8 +127,41 @@ class Subs_Words_Extractor(object):
             output_words += el + '\n'
         with open(self.new_words_file, 'wt', encoding='utf-8') as f:
             f.write(output_words)
+        if self.args.add_to_known:
+            with open(self.known_words_file, 'at', encoding='utf-8') as f:
+                f.write(output_words)
+
+        if self.args.translate:
+            self.translate_new_words()
 
         return len(self.new_words)
+
+    def translate_new_words(self):
+        if not os.path.isfile(self.yandex_translate_key_file):
+            print('put your api ket in {}\n'.format(
+                self.yandex_translate_key_file))
+            sys.exit(1)
+
+        with open(self.yandex_translate_key_file) as f:
+            api_key = f.read()
+
+        words_translation = {}
+        print('translate new words')
+        try:
+            YT = YandexTranslate(api_key)
+            for w in sorted(self.new_words):
+                words_translation[w] = ','.join(YT.translate(
+                    w, self.args.translate)['text'])
+        except YandexTranslateException as ex:
+            print(ex)
+        else:
+            tr_text = ''
+            for w, tr in words_translation.items():
+                tr_text += '{} = {}\n'.format(w, tr)
+            tr_file = self.new_words_translation_file.format(
+                self.args.translate.replace('-', '_'))
+            with open(tr_file, 'wt', encoding='utf-8') as f:
+                f.write(tr_text)
 
     def parse_ssa_text_line(self, text):
         line_sep = '\\N'
