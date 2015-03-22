@@ -16,7 +16,7 @@ For expamle: known word may be top 5000 english words.
 
 ###Example usage
 
-`python3 subwordext.py --sub sutitle.ssa --translate en-ru --add-to-knew`
+`python3 subwordext.py --sub sutitle.ssa --translate en-ru --add-to-known`
 
 ###Parametres
 

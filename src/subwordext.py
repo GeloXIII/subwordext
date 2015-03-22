@@ -9,7 +9,6 @@ from yandex_translate import (YandexTranslate,
                               YandexTranslateException)
 
 
-
 class Subs_Words_Extractor(object):
 
     ptp_to_wn_map = {
@@ -111,6 +110,7 @@ class Subs_Words_Extractor(object):
             print('exit, unsupported file format\n')
             sys.exit(1)
 
+        print('extrating new words')
         text_block_index = 0
         with open(self.subs_file, encoding='utf-8') as f:
             for line in f:
@@ -150,7 +150,7 @@ class Subs_Words_Extractor(object):
         try:
             YT = YandexTranslate(api_key)
             for w in sorted(self.new_words):
-                words_translation[w] = ','.join(YT.translate(
+                words_translation[w] = ', '.join(YT.translate(
                     w, self.args.translate)['text'])
         except YandexTranslateException as ex:
             print(ex)
