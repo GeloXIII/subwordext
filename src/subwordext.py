@@ -98,7 +98,7 @@ class Subs_Words_Extractor(object):
                     if word and not word.startswith('#'):
                         self.ignored_words.add(word)
         else:
-            with open(self.ingnored_words_file, 'wt', encoding='utf-8') as f:
+            with open(self.ignored_words_file, 'wt', encoding='utf-8') as f:
                 pass  # create empty file
 
     def extract_new_words(self):
