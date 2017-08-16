@@ -8,7 +8,7 @@ And exclude all words from list of known and ignored.
 
 For expamle: known word may be top 5000 english words.
 
-###Dependecies
+### Dependecies
 
 * **nltk**
 * **numpy**
@@ -18,11 +18,11 @@ For expamle: known word may be top 5000 english words.
 
 `python3 subwordext.py --sub sutitle.ssa --translate en-ru --add-to-known`
 
-###Parametres
+### Parametres
 
-####requried
+#### requried
 * *--sub* - subtitle file .ssa
 
-####optional
+#### optional
 * *--translate* - translate direction for example en-ru
 * *--add-to-known* - bool flag, add all extracted words to list of known
